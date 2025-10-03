@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wooshop Eurobank\n"
+"POT-Creation-Date: 2021-10-27 17:45+0300\n"
+"PO-Revision-Date: 2021-10-27 17:46+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: woocommerce-eurobank-payment-gateway.php\n"
+
+#: woocommerce-eurobank-payment-gateway.php:47
+msgid ""
+"Eurobank Payment Gateway allows you to accept payment through various "
+"channels such as Maestro, Mastercard, AMex cards, Diners and Visa cards On "
+"your Woocommerce Powered Site."
+msgstr ""
+"Η πύλη πληρωμών της Eurobank σας επιτρέπει να λαμβάνετε πληρωμές μέσω καρτών "
+"Maestro, Mastercard, American Express, Diners και Visa στο Woocommerce "
+"ηλεκτρονικό κατάστημά σας."
+
+#: woocommerce-eurobank-payment-gateway.php:49
+#: woocommerce-eurobank-payment-gateway.php:134
+msgid "Credit card via Eurobank"
+msgstr "Με κάρτα μέσω Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:97
+msgid "Eurobank Gateway"
+msgstr "Πύλη πληρωμών τράπεζας Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:98
+msgid ""
+"Eurobank Gateway allows you to accept payment through various channels such "
+"as Maestro, Mastercard, AMex cards, Diners  and Visa cards."
+msgstr ""
+"Η πύλη πληρωμών της Eurobank σας επιτρέπει να λαμβάνεται πληρωμές μέσω "
+"καρτών Maestro, Mastercard, American Express, Diners και Visa."
+
+#: woocommerce-eurobank-payment-gateway.php:115
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: woocommerce-eurobank-payment-gateway.php:117
+msgid "Enable Eurobank Gateway"
+msgstr "Ενεργοποίηση πύλης πληρωμών Τράπεζας Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:118
+msgid "Enable or disable the gateway."
+msgstr "Ενεργοποίηση ή απενεργοποίηση της πύλης πληρωμών."
+
+#: woocommerce-eurobank-payment-gateway.php:123
+msgid "Test Environment"
+msgstr "Δοκιμαστικό Περιβάλλον"
+
+#: woocommerce-eurobank-payment-gateway.php:125
+msgid "Enable Eurobank Test Environment"
+msgstr "Ενεργοποίηση Δοκιμαστικού Περιβάλλοντος της Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:126
+msgid "Enable or disable the test environment."
+msgstr "Ενεργοποίηση ή απενεργοποίηση του test περιβάλλοντος."
+
+#: woocommerce-eurobank-payment-gateway.php:131
+msgid "Title"
+msgstr "Τίτλος"
+
+#: woocommerce-eurobank-payment-gateway.php:133
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ελέγχει το τίτλο που εμφανίζεται στο χρήστη κατά τη πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:137
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: woocommerce-eurobank-payment-gateway.php:139
+msgid "This controls the description which the user sees during checkout."
+msgstr "Ελέγχει την περιγραφή που εμφανίζεται στον χρήστη κατά τη πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:140
+msgid "Pay Via Eurobank: Accepts  Mastercard, Visa cards and etc."
+msgstr "Πληρωμή μέσω Τράπεζας Eurobank: Δέχεται Mastercard, Visa και Maestro."
+
+#: woocommerce-eurobank-payment-gateway.php:143
+msgid "Display the logo of EuroBank"
+msgstr "Εμφάνιση του λογότυπου της EuroBank"
+
+#: woocommerce-eurobank-payment-gateway.php:145
+msgid ""
+"Enable to display the logo of EuroBank next to the title which the user sees "
+"during checkout."
+msgstr ""
+"Επιλέξτε για να εμφανίζεται το λογότυπο της τράπεζας δίπλα από το κείμενο "
+"πληρωμής με κάρτα, κατά την πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:149
+msgid "Eurobank Merchant ID"
+msgstr "Merchant ID Τράπεζας Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:151
+msgid "Enter Your Eurobank Merchant ID"
+msgstr "Εισάγετε το Merchant ID από τη Τράπεζα Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:156
+msgid "Eurobank Merchant KEY"
+msgstr "Eurobank Merchant Private Key"
+
+#: woocommerce-eurobank-payment-gateway.php:158
+msgid "Enter Your Eurobank Merchant KEY"
+msgstr "Εισάγετε το Private Key από τη Τράπεζα Eurobank"
+
+#: woocommerce-eurobank-payment-gateway.php:163
+msgid "Return page URL <br />(Successful or Failed Transactions)"
+msgstr "Σελίδα Επιστροφής <br />(Επιτυχείς ή Αποτυχημένες Συναλλαγές)"
+
+#: woocommerce-eurobank-payment-gateway.php:166
+msgid ""
+"We recommend you to select the default “Thank You Page”, in order to "
+"automatically serve both successful and failed transactions, with the latter "
+"also offering the option to try the payment again.<br /> If you select a "
+"different page, you will have to handle failed payments yourself by adding "
+"custom code."
+msgstr ""
+"Συστήνουμε την επιλογή της default “Σελίδα : Ευχαριστούμε για την αγορά”, "
+"ώστε να γίνεται αυτόματα και σωστά η ανακατεύθυνση επιτυχημένων και "
+"αποτυχημένων συναλλαγών, δίνοντας την επιλογή στις δεύτερες για "
+"επαναπροσπάθεια της πληρωμής.<br /> Εάν επιλέξετε διαφορετική σελίδα, θα "
+"πρέπει εσείς να προσθέσετε χειροκίνητα κώδικα στη σελίδα για να λειτουργεί "
+"σωστά."
+
+#: woocommerce-eurobank-payment-gateway.php:170
+msgid "Maximum number of installments regardless of the total order amount"
+msgstr "Μέγιστες άτοκες δόσεις ανεξαρτήτως ποσού παραγγελίας"
+
+#: woocommerce-eurobank-payment-gateway.php:173
+msgid ""
+"1 to 24 Installments,1 for one time payment. You must contact Eurobank "
+"first<br /> If you have filled the \"Max Number of installments depending on "
+"the total order amount\""
+msgstr ""
+"1 έως 24 άτοκες Δόσεις, 1 για εφάπαξ πληρωμή. Για ενεργοποίηση των δόσεων "
+"πρέπει να έχετε επικοινωνήσει με τη Τράπεζα Eurobank<br /> Εάν έχετε "
+"συμπληρώσει το πεδίο \"Μέγιστες άτοκες δόσεις ανάλογα με το ποσό παραγγελίας"
+"\", η τιμή αυτού του πεδίου θα αγνοηθεί."
+
+#: woocommerce-eurobank-payment-gateway.php:176
+msgid "Maximum number of installments depending on the total order amount"
+msgstr "Μέγιστες άτοκες δόσεις ανάλογα με το ποσό παραγγελίας"
+
+#: woocommerce-eurobank-payment-gateway.php:178
+msgid ""
+"Example 80:2, 160:4, 300:8</br> total order greater or equal to 80 -> allow "
+"2 installments, total order greater or equal to 160 -> allow 4 installments, "
+"total order greater or equal to 300 -> allow 8 installments</br> Leave the "
+"field blank if you do not want to limit the number of installments depending "
+"on the amount of the order."
+msgstr ""
+"Παράδειγμα: 80:2, 160:4, 300:8</br>\n"
+"Κόστος παραγγελίας: για 80€ και πάνω: δυνατότητα για 2 δόσεις, για 160€ και "
+"πάνω: δυνατότητα για 4 δόσεις, για 300€ και πάνω: δυνατότητα για 8 δόσεις</"
+"br>\n"
+"Αφήστε κενό το πεδίο εάν δεν θέλετε να περιορίσετε τον αριθμό των δόσεων "
+"ανάλογα με το ποσό της παραγγελίας."
+
+#: woocommerce-eurobank-payment-gateway.php:181
+msgid "Pre-Authorize"
+msgstr "Προ-Έγκριση"
+
+#: woocommerce-eurobank-payment-gateway.php:183
+msgid "Enable to capture preauthorized payments"
+msgstr "Ενεργοποιήστε για να συλλέγεται προεγκεκριμένες πληρωμές"
+
+#: woocommerce-eurobank-payment-gateway.php:187
+msgid "Enable Debug mode"
+msgstr "Ενεργοποίηση λειτουργίας εντοπισμού σφαλμάτων"
+
+#: woocommerce-eurobank-payment-gateway.php:189
+msgid "Enabling this will log certain information"
+msgstr ""
+"Η ενεργοποίηση αυτής της δυνατότητας θα καταγράψει ορισμένες πληροφορίες"
+
+#: woocommerce-eurobank-payment-gateway.php:191
+msgid ""
+"Enabling this (and the debug mode from your wp-config file) will log "
+"information, e.g. bank responses, which will help in debugging issues."
+msgstr ""
+"Η ενεργοποίηση αυτής της δυνατότητας (και της λειτουργίας εντοπισμού "
+"σφαλμάτων από το αρχείο wp-config) θα καταγράψει πληροφορίες, π.χ. "
+"τραπεζικές απαντήσεις, οι οποίες θα βοηθήσουν σε ζητήματα εντοπισμού "
+"σφαλμάτων."
+
+#: woocommerce-eurobank-payment-gateway.php:194
+msgid "Enable 2nd “payment received” email"
+msgstr "Ενεργοποίηση αποστολής του 2ου email “Η πληρωμή έχει ληφθεί”"
+
+#: woocommerce-eurobank-payment-gateway.php:196
+msgid "Enable sending Customer order note with transaction details"
+msgstr ""
+"Ενεργοποίηση αποστολής Σημείωσης παραγγελίας με τις πληροφορίες της "
+"συναλλαγής"
+
+#: woocommerce-eurobank-payment-gateway.php:198
+msgid ""
+"Enabling this will send an email with the support reference id and "
+"transaction id to the customer, after the transaction has been completed "
+"(either on success or failure)"
+msgstr ""
+"Ενεργοποιώντας αυτή τη λειτουργία, θα αποστέλλετε email με το support "
+"reference Id και το id συναλλαγής στον πελάτη, μετά την ολοκλήρωση της "
+"συναλλαγής (είτε επιτυχημένη είτε αποτυχήμενη)"
+
+#: woocommerce-eurobank-payment-gateway.php:251
+msgid "Choose Installments"
+msgstr "Επιλέξτε δόσεις"
+
+#: woocommerce-eurobank-payment-gateway.php:255
+msgid "Without installments"
+msgstr "Χωρίς δόσεις"
+
+#: woocommerce-eurobank-payment-gateway.php:297
+msgid "Thank you page"
+msgstr "Σελίδα : Ευχαριστούμε για την αγορά"
+
+#: woocommerce-eurobank-payment-gateway.php:372
+msgid ""
+"Thank you for your order. We are now redirecting you to Eurobank to make "
+"payment."
+msgstr ""
+"Ευχαριστούμε για τη παραγγελία. Σας ανακατευθύνουμε στη Τράπεζα Eurobank για "
+"να πραγματοποιηθεί πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:561
+msgid ""
+"Thank you - your order is now pending payment. You should be automatically "
+"redirected to Eurobank Paycenter to make payment."
+msgstr ""
+"Ευχαριστούμε - η παραγγελία σας αναμένει πληρωμή. Θα ανακατευθυνθείτε "
+"αυτόματα στο Paycenter της Τράπεζας Eurobank για να πραγματοποιήσετε την "
+"πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:616
+#: woocommerce-eurobank-payment-gateway.php:634
+msgid ""
+"A technical problem occured. <br />The transaction wasn't successful, "
+"payment wasn't received."
+msgstr ""
+"Ένα τεχνικό πρόβλημα συνέβη. <br /> Η συναλλαγή δεν ήταν επιτυχής, δε λάβαμε "
+"πληρωμή."
+
+#: woocommerce-eurobank-payment-gateway.php:656
+msgid "Payment Via Eurobank Bank<br />Transaction ID: "
+msgstr "Πληρωμή μέσω Τράπεζας Eurobank<br /> ID Συναλλαγής: "
+
+#: woocommerce-eurobank-payment-gateway.php:657
+msgid ""
+"Thank you for shopping with us.<br />Your transaction was successful, "
+"payment was received.<br />Your order is currently being processed."
+msgstr ""
+"Σας ευχαριστούμε για την προτίμησή σας!<br /> Η συναλλαγή ήταν επιτυχής, "
+"λάβαμε τη πληρωμή. <br /> H παραγγελία σας βρίσκεται υπό επεξεργασία."
+
+#: woocommerce-eurobank-payment-gateway.php:661
+msgid ""
+"Payment Received.<br />Your order is currently being processed.<br />We will "
+"be shipping your order to you soon.<br />Eurobank Bank ID: "
+msgstr ""
+"Η πληρωμή έχει ληφθεί. <br /> Η παραγγελία σας είναι υπό επεξεργασία. <br /> "
+"Θα σας αποστείλουμε τη παραγγελία σας το συντομότερο δυνατό.<br /> ID "
+"Συναλλαγής Τράπεζας Eurobank: "
+
+#: woocommerce-eurobank-payment-gateway.php:665
+msgid ""
+"Thank you for shopping with us.<br />Your transaction was successful, "
+"payment was received.<br />Your order is now complete."
+msgstr ""
+"Σας ευχαριστούμε για την προτίμησή σας!<br /> Η συναλλαγή ήταν επιτυχής, "
+"λάβαμε τη πληρωμή. <br /> H παραγγελία σας έχει ολοκληρωθεί."
+
+#: woocommerce-eurobank-payment-gateway.php:668
+msgid ""
+"Payment Received.<br />Your order is now complete.<br />Eurobank Transaction "
+"ID: "
+msgstr ""
+"Λάβαμε τη πληρωμή. <br /> Η παραγγελία σας έχει ολοκληρωθεί.<br /> ID "
+"Συναλλαγής Τράπεζας Eurobank: "
+
+#: woocommerce-eurobank-payment-gateway.php:686
+msgid ""
+"Thank you for shopping with us. <br />However, the transaction wasn't "
+"successful, payment was cancelled."
+msgstr ""
+"Σας ευχαριστούμε για την προτίμησή σας!<br /> Η συναλλαγή δεν ήταν επιτυχής, "
+"η πληρωμή ακυρώθηκε."
+
+#: woocommerce-eurobank-payment-gateway.php:692
+#: woocommerce-eurobank-payment-gateway.php:703
+msgid ""
+"Thank you for shopping with us. <br />However, the transaction wasn't "
+"successful, payment wasn't received."
+msgstr ""
+"Σας ευχαριστούμε για την προτίμησή σας!<br /> Η συναλλαγή δεν ήταν επιτυχής, "
+"η πληρωμή δεν ολοκληρώθηκε."
+
+#~ msgid "Payment received, your order is now complete."
+#~ msgstr "Λάβαμε τη πληρωμή, η παραγγελία έχει ολοκληρωθεί."
+
+#~ msgid "Payment received, your order is currently being processed."
+#~ msgstr "Λάβαμε τη πληρωμή, η παραγγελία σας βρίσκεται υπό επεξεργασία."
+
+#~ msgid "Return Page"
+#~ msgstr "Σελίδα Επιστροφής"
+
+#~ msgid "URL of success page"
+#~ msgstr "URL σελίδας επιστροφής"
+
+#~ msgid ""
+#~ "1 to 24 Installments,1 for one time payment. You must contact Eurobank "
+#~ "first<br /> If you have filled the \"Max Number of installments depending "
+#~ "on the total order amount"
+#~ msgstr ""
+#~ "1 έως 24 άτοκες δόσεις, 1 για εφάπαξ πληρωμή. Για ενεργοποίηση των δόσεων "
+#~ "πρέπει να έχετε επικοινωνήσει με τη Τράπεζα Eurobank<br /> Εαν έχετε "
+#~ "συμπλήρώσει το πεδίο \"Μέγιστες άτοκες δόσεις ανάλογα με το ποσό "
+#~ "παραγγελίας\", η τιμή  του παρόντος πεδίου θα αγνοηθεί."
+
+#~ msgid "Max Installments"
+#~ msgstr "Μέγιστος αριθμός δόσεων"
+
+#~ msgid ""
+#~ "1 to 24 Installments,1 for one time payment. You must contact Eurobank "
+#~ "first"
+#~ msgstr "Επιλέξτε 1 έως 24 δόσεις.  Επιλέξτε 1 αν δεν επιθυμείτε δόσεις. "
