@@ -3,7 +3,7 @@
 Plugin Name: Eurobank WooCommerce Payment Gateway
 Plugin URI: https://www.papaki.com
 Description: Eurobank Payment Gateway allows you to accept payment through various channels such as Maestro, Mastercard, AMex cards, Diners and Visa cards On your Woocommerce Powered Site.
-Version: 2.0.2
+Version: 2.0.3
 Author: Papaki
 Author URI: https://www.papaki.com
 License: GPL-3.0+
@@ -508,17 +508,42 @@ class WC_Eurobank_Gateway extends WC_Payment_Gateway
         $status = filter_var($_POST['status'], FILTER_SANITIZE_STRING);
         $message = isset($_POST['message']) ? filter_var($_POST['message'], FILTER_SANITIZE_STRING) : '';
         $paymentRef = isset($_POST['paymentRef']) ? filter_var($_POST['paymentRef'], FILTER_SANITIZE_STRING) : '';
-        $digest = filter_var($_POST['digest'], FILTER_SANITIZE_STRING);
+        $digest = isset($_POST['digest']) ? (string) $_POST['digest'] : '';
 
-        $form_data = '';
-        foreach ($_POST as $k => $v) {
-            if (!in_array($k, array('_charset_', 'digest', 'submitButton'))) {
-                $form_data .= filter_var($v, FILTER_SANITIZE_STRING);
-            }
+        // Build digest deterministically using the exact field order and unslashed raw values
+        $fields_for_digest = array(
+            'version',
+            'mid',
+            'orderid',
+            'status',
+            'orderAmount',
+            'currency',
+            'paymentTotal',
+            'message',
+            'riskScore',
+            'payMethod',
+            'txId',
+            'paymentRef'
+        );
+
+        $concat = '';
+        foreach ($fields_for_digest as $f) {
+            $concat .= isset($_POST[$f]) ? (string) wp_unslash($_POST[$f]) : '';
         }
 
-        $form_data .= $this->eb_PayMerchantKey;
+        // Keep encoding normalization consistent with request-side hashing
+        $form_data = iconv('UTF-8', 'UTF-8//IGNORE', $concat) . $this->eb_PayMerchantKey;
         $computed_digest = $this->calculate_digest($form_data);
+
+        if ($this->eb_enable_log === 'yes') {
+            error_log('---- Eurobank Debug Logs Before Comparison -----');
+            error_log('Fields order: ' . implode(',', $fields_for_digest));
+            error_log('Concat: ' . $concat);
+            error_log('Form data used for digest: ' . $form_data);
+            error_log('computed_digest: ' . $computed_digest);
+            error_log('digest: ' . $digest);
+            error_log('---- End of Eurobank Debug Logs Before Comparison ----');
+        }
 
         $order = new WC_Order($orderid);
 
