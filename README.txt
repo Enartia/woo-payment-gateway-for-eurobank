@@ -3,7 +3,7 @@ Contributors: enartia,g.georgopoulos,georgekapsalakis,akatopodis
 Author URI: https://www.papaki.com
 Tags: ecommerce, woocommerce, payment gateway
 Requires at least: 6.4.2
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 WC tested: 8.5.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -52,6 +52,9 @@ WooCommerce 8.5.0. It's probably safe to assume that it works in most of the "re
 but not versions from 10+ years ago.
 
 == Changelog ==
+= 2.0.3 =
+Support IRIS payments
+
 = 2.0.0 =
 Major code cleanup
 Removed backward compatibilities to make future development easier
