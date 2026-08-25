@@ -4,7 +4,7 @@ Author URI: https://www.papaki.com
 Tags: ecommerce, woocommerce, payment gateway
 Tested up to: 6.8.3
 Requires at least: 6.4.2
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 WC tested up to: 10.8.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -49,6 +49,10 @@ WooCommerce 8.5.0. It's probably safe to assume that it works in most of the "re
 but not versions from 10+ years ago.
 
 == Changelog ==
+
+= 2.1.1 =
+Ensured installment fields are always included in Eurobank payment requests
+Updated the plugin description to include IRIS payments
 
 = 2.1.0 =
 Introduced the possibility for Block Editor checkout blocks
