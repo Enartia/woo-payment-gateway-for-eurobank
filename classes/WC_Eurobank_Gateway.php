@@ -401,6 +401,8 @@ class WC_Eurobank_Gateway extends \WC_Payment_Gateway {
             'billCity'       => $order->get_billing_city(),
             'billAddress'    => $order->get_billing_address_1(),
             'trType'         => $trType,
+            'extInstallmentoffset' => null,
+            'extInstallmentperiod' => null,
             'confirmUrl'     => get_site_url() . "/?wc-api=WC_eurobank_Gateway&result=success",
             'cancelUrl'      => get_site_url() . "/?wc-api=WC_eurobank_Gateway&result=failure",
             'var2'           => $order_id,
