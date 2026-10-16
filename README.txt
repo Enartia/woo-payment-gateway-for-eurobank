@@ -1,14 +1,16 @@
 === Eurobank WooCommerce Payment Gateway ===
-Contributors: enartia,g.georgopoulos,georgekapsalakis,akatopodis
+Contributors: enartia,ggeorgopoulos,georgekapsalakis,akatopodis
 Author URI: https://www.papaki.com
 Tags: ecommerce, woocommerce, payment gateway
-Tested up to: 6.8.3
-Requires at least: 6.4.2
+Tested up to: 7.1
+Requires at least: 6.4
 Stable tag: 2.1.1
-WC tested up to: 10.8.1
+WC tested up to: 11.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-PHP: 7.4
+Requires PHP: 7.4
+
+Accept card and IRIS payments in WooCommerce through the Eurobank paycenter, with pre-authorisation and instalments.
 
 == Description ==
 This plugin adds Eurobank paycenter as a payment gateway for WooCommerce. A contract between you and the Bank must be previously signed.
