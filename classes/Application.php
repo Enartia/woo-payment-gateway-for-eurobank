@@ -8,6 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Application {
     public const PLUGIN_TITLE = 'Payment Gateway – Credit card via Eurobank';
     public const TEXT_DOMAIN  = 'woo-payment-gateway-for-eurobank';
+    public const VERSION      = '2.1.2';
 
     private $entrypoint_path;
 
@@ -16,6 +17,7 @@ class Application {
 
         // add_action( 'plugins_loaded', [ $this, 'init' ], 0 );
         // we're in a plugins_loaded hook already, @see woocommerce-eurobank-payment-gateway.php
+        Installer::maybe_install();
         $this->init();
 
         add_action( 'init', [ $this, 'load_languages' ] );
@@ -32,7 +34,7 @@ class Application {
     }
 
     public function load_languages() {
-        load_plugin_textdomain( static::TEXT_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/../languages/' );
+        load_plugin_textdomain( static::TEXT_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/../languages/' ); // phpcs:ignore PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound -- No Greek pack exists on translate.wordpress.org; the bundled translation is the only one.
     }
 
     public function declare_transactions() {
