@@ -764,7 +764,8 @@ class WC_Eurobank_Gateway extends \WC_Payment_Gateway {
      */
     private static function encrypt( $message, $key ) {
         if ( mb_strlen( $key, '8bit' ) !== self::ENCRYPTION_KEY_LENGTH ) {
-            throw new \Exception( esc_html( sprintf( 'Needs a %d-bit key! Got %d bytes', self::ENCRYPTION_KEY_LENGTH * 8, mb_strlen( $key, '8bit' ) ) ) );
+            // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped -- Message holds only integers and is never rendered as HTML.
+            throw new \Exception( sprintf( 'Needs a %d-bit key! Got %d bytes', self::ENCRYPTION_KEY_LENGTH * 8, mb_strlen( $key, '8bit' ) ) );
         }
         $ivsize = openssl_cipher_iv_length( self::ENCRYPTION_METHOD );
         $iv     = openssl_random_pseudo_bytes( $ivsize );
@@ -788,7 +789,8 @@ class WC_Eurobank_Gateway extends \WC_Payment_Gateway {
      */
     private static function decrypt( $message, $key ) {
         if ( mb_strlen( $key, '8bit' ) !== self::ENCRYPTION_KEY_LENGTH ) {
-            throw new \Exception( esc_html( sprintf( 'Needs a %d-bit key! Got %d bytes', self::ENCRYPTION_KEY_LENGTH * 8, mb_strlen( $key, '8bit' ) ) ) );
+            // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped -- Message holds only integers and is never rendered as HTML.
+            throw new \Exception( sprintf( 'Needs a %d-bit key! Got %d bytes', self::ENCRYPTION_KEY_LENGTH * 8, mb_strlen( $key, '8bit' ) ) );
         }
         $ivsize     = openssl_cipher_iv_length( self::ENCRYPTION_METHOD );
         $iv         = mb_substr( $message, 0, $ivsize, '8bit' );

@@ -20,13 +20,13 @@ msgstr ""
 #. Plugin Name of the plugin
 #: woocommerce-eurobank-payment-gateway.php
 msgid "Eurobank WooCommerce Payment Gateway"
-msgstr ""
+msgstr "Πύλη πληρωμών Eurobank για WooCommerce"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 #: woocommerce-eurobank-payment-gateway.php
 msgid "https://www.papaki.com"
-msgstr ""
+msgstr "https://www.papaki.com"
 
 #. Description of the plugin
 #: woocommerce-eurobank-payment-gateway.php
@@ -35,11 +35,14 @@ msgid ""
 "channels such as IRIS and Maestro, Mastercard, AMex cards, Diners and Visa "
 "cards On your Woocommerce Powered Site."
 msgstr ""
+"Η πύλη πληρωμών της Eurobank σας επιτρέπει να δέχεστε πληρωμές μέσω διαφόρων "
+"καναλιών, όπως IRIS και κάρτες Maestro, Mastercard, American Express, Diners "
+"και Visa, στο ηλεκτρονικό κατάστημά σας με WooCommerce."
 
 #. Author of the plugin
 #: woocommerce-eurobank-payment-gateway.php
 msgid "Papaki"
-msgstr ""
+msgstr "Papaki"
 
 #. translators: %s: payment method title
 #: classes/WC_Eurobank_Gateway.php:60
@@ -49,6 +52,9 @@ msgid ""
 "Mastercard, AMex cards, Diners and Visa cards On your Woocommerce Powered "
 "Site."
 msgstr ""
+"Η μέθοδος πληρωμής %s σας επιτρέπει να δέχεστε πληρωμές μέσω διαφόρων "
+"καναλιών, όπως κάρτες Maestro, Mastercard, American Express, Diners και "
+"Visa, στο ηλεκτρονικό κατάστημά σας με WooCommerce."
 
 #. translators: %s: payment method title
 #: classes/WC_Eurobank_Gateway.php:120
@@ -57,6 +63,8 @@ msgid ""
 "%s allows you to accept payment through various channels such as Maestro, "
 "Mastercard, AMex cards, Diners  and Visa cards."
 msgstr ""
+"Η μέθοδος πληρωμής %s σας επιτρέπει να δέχεστε πληρωμές μέσω διαφόρων "
+"καναλιών, όπως κάρτες Maestro, Mastercard, American Express, Diners και Visa."
 
 #: classes/WC_Eurobank_Gateway.php:136
 msgid "Enable/Disable"
@@ -66,7 +74,7 @@ msgstr "Ενεργοποίηση/Απενεργοποίηση"
 #: classes/WC_Eurobank_Gateway.php:140
 #, php-format
 msgid "Enable %s"
-msgstr ""
+msgstr "Ενεργοποίηση %s"
 
 #: classes/WC_Eurobank_Gateway.php:143
 msgid "Enable or disable the gateway."
@@ -80,7 +88,7 @@ msgstr "Δοκιμαστικό Περιβάλλον"
 #: classes/WC_Eurobank_Gateway.php:152
 #, php-format
 msgid "Enable %s test environment"
-msgstr ""
+msgstr "Ενεργοποίηση δοκιμαστικού περιβάλλοντος για %s"
 
 #: classes/WC_Eurobank_Gateway.php:155
 msgid "Enable or disable the test environment."
@@ -272,6 +280,8 @@ msgid ""
 "A technical problem occurred. <br />The transaction wasn't successful, "
 "payment wasn't received."
 msgstr ""
+"Παρουσιάστηκε τεχνικό πρόβλημα. <br />Η συναλλαγή δεν ήταν επιτυχής, δε "
+"λάβαμε πληρωμή."
 
 #. translators: 1: amount reported by the bank, 2: currency, 3: merchant ID, 4: bank transaction ID
 #: classes/WC_Eurobank_Gateway.php:562
@@ -281,10 +291,13 @@ msgid ""
 "%2$s, merchant ID %3$s, transaction ID %4$s). Check it in the Eurobank back "
 "office before fulfilling the order."
 msgstr ""
+"Η Eurobank ανέφερε πληρωμή που δεν αντιστοιχεί σε αυτή την παραγγελία (ποσό "
+"%1$s %2$s, Merchant ID %3$s, ID Συναλλαγής %4$s). Ελέγξτε την πληρωμή στο "
+"back office της Eurobank πριν εκτελέσετε την παραγγελία."
 
 #: classes/WC_Eurobank_Gateway.php:577
 msgid "Payment Via Eurobank<br />Transaction ID: "
-msgstr ""
+msgstr "Πληρωμή μέσω Eurobank<br />ID Συναλλαγής: "
 
 #: classes/WC_Eurobank_Gateway.php:578
 msgid ""
@@ -299,6 +312,9 @@ msgid ""
 "Payment Received.<br />Your order is currently being processed.<br />We will "
 "be shipping your order to you soon.<br />Eurobank Transaction ID: "
 msgstr ""
+"Η πληρωμή έχει ληφθεί.<br />Η παραγγελία σας είναι υπό επεξεργασία.<br />Θα "
+"σας αποστείλουμε την παραγγελία σας το συντομότερο δυνατό.<br />ID "
+"Συναλλαγής Eurobank: "
 
 #: classes/WC_Eurobank_Gateway.php:584
 msgid ""
@@ -338,6 +354,8 @@ msgid ""
 "Eurobank WooCommerce Payment Gateway requires WooCommerce to be installed "
 "and active."
 msgstr ""
+"Η Πύλη πληρωμών Eurobank για WooCommerce απαιτεί εγκατεστημένο και ενεργό "
+"WooCommerce."
 
 #~ msgid ""
 #~ "Eurobank Payment Gateway allows you to accept payment through various "
