@@ -3,7 +3,7 @@
 Plugin Name: Eurobank WooCommerce Payment Gateway
 Plugin URI: https://www.papaki.com
 Description: Eurobank Payment Gateway allows you to accept payment through various channels such as IRIS and Maestro, Mastercard, AMex cards, Diners and Visa cards On your Woocommerce Powered Site.
-Version: 2.1.2
+Version: 2.1.3
 Requires at least: 6.4
 Requires PHP: 7.4
 Author: Papaki

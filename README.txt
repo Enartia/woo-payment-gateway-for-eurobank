@@ -4,7 +4,7 @@ Author URI: https://www.papaki.com
 Tags: ecommerce, woocommerce, payment gateway
 Tested up to: 7.1
 Requires at least: 6.4
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 WC tested up to: 11.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -51,6 +51,9 @@ WooCommerce 8.5.0. It's probably safe to assume that it works in most of the "re
 but not versions from 10+ years ago.
 
 == Changelog ==
+
+= 2.1.3 =
+Fix: the order-received page no longer gives an error (HTTP 500) for an unknown order number.
 
 = 2.1.2 =
 Security: bank responses are now rejected unless signed with the configured secret and matching the order's gateway, amount and currency.
